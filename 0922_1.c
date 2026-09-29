@@ -1,9 +1,13 @@
 #include <stdio.h>
-int main(){
-    int cost = 239;
-    int count = 5;
-
-    printf("總金額:%d\n",(cost*count));
+int main()
+{
+    int card=7;
+    card^=2;
+    printf("%d\n",card);
+    card^=2;
+    printf("%d\n",card);
 
     return 0;
+
+
 }
