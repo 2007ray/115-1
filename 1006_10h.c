@@ -11,7 +11,7 @@ int main()
     scanf("%d",&money_all);
     printf("請輸入提款金額：");
     scanf("%d",&money_get);
-    printf("請輸入黑名單狀態（1：是，0：否）：");
+    printf("請輸入黑名單狀態（1：是，0：否)：");
     scanf("%d",&black);
     if(login=1&&money_all>=money_get&&black==0)
     {
