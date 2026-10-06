@@ -2,26 +2,18 @@
 int main()
 {
     int age;
-    int height;
+    int license;
     printf("請輸入年齡:");
     scanf("%d",&age);
-    printf("請輸入身高:");
-    scanf("%d",&height);
-    if(age>=12)
+    printf("請輸入是否擁有駕照1有0無:");
+    scanf("%d",&license);
+    if(age>=18||license)
     {
-        if(height>=140)
-        {
-            printf("可");
-        }
-        else
-        {
-            printf("不可");
-        }
-
+     printf("可開");
     }
     else
     {
-        printf("不可");
+        printf("不可開");
     }
     return 0;
 }
