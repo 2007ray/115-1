@@ -2,19 +2,19 @@
 int main()
 {
     int login; 
-    int buget;
-    int cost;
+    int money_all;
+    int money_get;
     int black;
     printf("請輸入登入狀態（1：已登入，0：未登入）：");
     scanf("%d",&login);
     if(login ==1)
     {printf("請輸入帳戶餘額：");
-    scanf("%d",&buget);
+    scanf("%d",&money_all);
     printf("請輸入提款金額：");
-    scanf("%d",&cost);
+    scanf("%d",&money_get);
     printf("請輸入黑名單狀態（1：是，0：否）：");
     scanf("%d",&black);
-    if(buget>=cost&&black==0)
+    if(money_all>=money_get&&black==0)
     {
         printf("可以提款");
     }else{
