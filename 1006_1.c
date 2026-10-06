@@ -1,16 +1,27 @@
 #include<stdio.h>
 int main()
 {
-    int score;
-    printf("請輸入成績:");
-    scanf("%d",&score);
-    if(score>=60)
+    int age;
+    int height;
+    printf("請輸入年齡:");
+    scanf("%d",&age);
+    printf("請輸入身高:");
+    scanf("%d",&height);
+    if(age>=12)
     {
-        printf("及格");
+        if(height>=140)
+        {
+            printf("可");
+        }
+        else
+        {
+            printf("不可");
+        }
+
     }
     else
     {
-        printf("不及格");
+        printf("不可");
     }
     return 0;
 }
