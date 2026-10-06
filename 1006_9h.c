@@ -16,7 +16,7 @@ int main()
         }
         else
         {
-            printf("成績不及格");
+            printf("出席不及格");
         }
 
     }
