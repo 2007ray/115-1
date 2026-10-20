@@ -1,13 +1,23 @@
 #include <stdio.h>
 int main()
 {
-int pasword;
-do
+int i,num;
+for(i=1;i<=5;i++)
 {
- printf("請輸入密碼:");
- scanf("%d",pasword);
+  printf("請輸入整數:");
+  scanf("%d",&num);
+  if(num==0)
+  {
+    printf("結束");
+    break;
+  }
+  if(num<0)
+  {
+    printf("負數不處理");
+    continue;
+  }
+  printf("%d\n",num);
 }
-while(password != 0);
 
     return 0;
 }
