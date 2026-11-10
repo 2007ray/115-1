@@ -1,15 +1,9 @@
 #include <stdio.h>
-void count(int n)
-{
-    if(n==0)
-    {
-        return 0;
-    }
-    printf("%d\n",n);
-    count(n-1);
-}
+#include"myfun.h"
 int main()
 {
-    count(5);
+    int result;
+    result = add(10,20);
+    printf("%d",result);
     return 0;
 }
